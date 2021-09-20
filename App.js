@@ -12,7 +12,7 @@ import Cita from './components/Cita';
 import Formulario from './components/Formulario';
 
 const App = () => {
-  const [mostrarForm, guardarMostrarForm] = useState(true);
+  const [mostrarForm, guardarMostrarForm] = useState(false);
 
   const [citas, setCitas] = useState([]);
 
